@@ -114,6 +114,7 @@ func main(){
 }
 */
 
+/*
 func main(){
 	for i := 0; i < 3; i++{
 		fmt.Println("looping...")
@@ -136,5 +137,21 @@ func main(){
 		fmt.Println("looping forever:)))")
 		i++
 	    fmt.Println(i)
+	}
+}
+*/
+
+func main(){
+	name := "maysam"
+	
+	if name == "maysam"{
+		fmt.Println("okay!")
+	}
+	
+	nick := "senaps"
+	if nick == name{
+		fmt.Println("no nicks...")
+	}else{
+		fmt.Println("you have a nick!")
 	}
 }
