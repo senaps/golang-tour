@@ -74,6 +74,7 @@ func main(){
 }
 */
 
+/*
 var(
 	name string = "maysam"
 	age = 27
@@ -88,4 +89,17 @@ func main(){
 	fmt.Println("do we have this effect here too?")
 	fmt.Println("next line to check!")
 	// so `Println` goes to next line automatically, but `Printf` does not!
+}
+*/
+
+
+var programmer  bool// default is false!
+var yearsOfGOExperience  int//default is zero
+
+func main(){
+	fmt.Printf("%T:%v\n", programmer, programmer)
+	fmt.Printf("%T:%v\n", yearsOfGOExperience, yearsOfGOExperience)
+	yearsOfGOExperience = 1
+	fl := float64(yearsOfGOExperience) // casting the fucking int to float64
+	fmt.Printf("%T:%v\n", fl, fl)
 }
