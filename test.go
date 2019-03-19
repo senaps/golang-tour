@@ -105,9 +105,36 @@ func main(){
 }
 */
 
+/*
 const likesGo = true  // how to make a const!
 
 func main(){
 	// const thing := "something" wont work! const only works with =
 	fmt.Println(likesGo)
+}
+*/
+
+func main(){
+	for i := 0; i < 3; i++{
+		fmt.Println("looping...")
+	}
+
+	i := 0
+	for ;i<5;{
+		fmt.Println("still looping...")
+		i++
+	}
+
+	i = 0
+	for i<5 {
+		fmt.Println("looping while style...")
+		i++
+	}
+
+	i = 0
+	for{
+		fmt.Println("looping forever:)))")
+		i++
+	    fmt.Println(i)
+	}
 }
