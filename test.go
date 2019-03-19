@@ -43,6 +43,7 @@ func main(){
 }
 */
 
+/*
 var name, family string  // this how we make variables!
 
 func main(){
@@ -51,4 +52,11 @@ func main(){
 	//address = "Tehran"  // this wont work!
 	var address = "Tehran"  //this works! so no need of the variable type
 	fmt.Println(name, family, age, address)
+}
+*/
+
+var name, nick, programmer = "maysam", "senaps", true  // this how we will do multiple variables
+
+func main(){
+	fmt.Println(name, nick, programmer)
 }
