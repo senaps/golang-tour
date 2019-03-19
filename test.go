@@ -92,7 +92,7 @@ func main(){
 }
 */
 
-
+/*
 var programmer  bool// default is false!
 var yearsOfGOExperience  int//default is zero
 
@@ -102,4 +102,12 @@ func main(){
 	yearsOfGOExperience = 1
 	fl := float64(yearsOfGOExperience) // casting the fucking int to float64
 	fmt.Printf("%T:%v\n", fl, fl)
+}
+*/
+
+const likesGo = true  // how to make a const!
+
+func main(){
+	// const thing := "something" wont work! const only works with =
+	fmt.Println(likesGo)
 }
