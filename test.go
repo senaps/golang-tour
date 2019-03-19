@@ -9,10 +9,16 @@ import(
 	fmt.Println("hello wrold from a function:)")
 }
 */
-
+/*
 func addnumbers(first int, second int) int{
 	return first + second
 }
+*/
+
+func addnumbers(first, second int) int{
+	return first + second
+}
+
 func main(){
 	//fmt.Println("hello world!:)")
 	//testfunc()
