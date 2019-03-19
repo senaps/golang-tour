@@ -141,6 +141,7 @@ func main(){
 }
 */
 
+/*
 func main(){
 	name := "maysam"
 	
@@ -154,4 +155,19 @@ func main(){
 	}else{
 		fmt.Println("you have a nick!")
 	}
+}
+
+*/
+
+func main(){
+	age := 27 
+	switch {
+	case age < 10:
+		fmt.Println("fuck off!")
+	case age < 20:
+		fmt.Println("still, fuck off...")
+	case age > 20:
+		fmt.Println("go fuck yourself!")
+	}
+
 }
