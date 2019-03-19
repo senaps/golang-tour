@@ -64,10 +64,28 @@ func main(){
 
 */
 
+/*
 // name := "maysam" //wont work, cause we don't have := outside of functions!
 var name = "maysam"
 
 func main(){
 	nick := "senaps"
 	fmt.Println(name, nick)
+}
+*/
+
+var(
+	name string = "maysam"
+	age = 27
+	programmer = true
+)
+// shit! :) we can do one liner stuff too with var
+func main(){
+	fmt.Printf("concating with T as type: %T, value is: %v\n", name, name)
+	fmt.Printf("type: %T, value is: %v", programmer, programmer)
+	fmt.Printf("what the heck is the \n doing at the end? we forced to use it?")
+	//if stupid `\n` is not used, next print comes appended to current line
+	fmt.Println("do we have this effect here too?")
+	fmt.Println("next line to check!")
+	// so `Println` goes to next line automatically, but `Printf` does not!
 }
