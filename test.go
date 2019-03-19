@@ -15,13 +15,16 @@ func addnumbers(first int, second int) int{
 }
 */
 
-func addNumbers(first, second int) (int, string){
-	return first + second, "No error:)"
+func addNumbers(first, second int) (sum int, errString string){
+	// we have added names for return shits...
+	sum = first + second
+	//errString = "None"  // we will even work without this:)
+	return sum, errString
 }
 
 func main(){
 	//fmt.Println("hello world!:)")
 	//testfunc()
-	res, errorString := addNumbers(5,6)
-	fmt.Println(res, errorString)
+	result, some := addNumbers(5, 6)  // we need to use := wtf is the difference?
+	fmt.Println(result, some)
 }
