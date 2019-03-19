@@ -15,12 +15,13 @@ func addnumbers(first int, second int) int{
 }
 */
 
-func addnumbers(first, second int) int{
-	return first + second
+func addNumbers(first, second int) (int, string){
+	return first + second, "No error:)"
 }
 
 func main(){
 	//fmt.Println("hello world!:)")
 	//testfunc()
-	fmt.Println(addnumbers(5,6))
+	res, errorString := addNumbers(5,6)
+	fmt.Println(res, errorString)
 }
