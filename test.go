@@ -159,6 +159,7 @@ func main(){
 
 */
 
+/*
 func main(){
 	age := 27 
 	switch {
@@ -169,5 +170,10 @@ func main(){
 	case age > 20:
 		fmt.Println("go fuck yourself!")
 	}
+}
+*/
 
+func main(){
+	defer fmt.Println("world?") // runs when function is finished execution...
+	fmt.Println("hello")
 }
