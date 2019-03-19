@@ -55,8 +55,19 @@ func main(){
 }
 */
 
+/*
 var name, nick, programmer = "maysam", "senaps", true  // this how we will do multiple variables
 
 func main(){
 	fmt.Println(name, nick, programmer)
+}
+
+*/
+
+// name := "maysam" //wont work, cause we don't have := outside of functions!
+var name = "maysam"
+
+func main(){
+	nick := "senaps"
+	fmt.Println(name, nick)
 }
