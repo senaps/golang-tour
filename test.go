@@ -5,11 +5,16 @@ import(
 )
 
 
-func testfunc(){
+/*func testfunc(){
 	fmt.Println("hello wrold from a function:)")
 }
+*/
 
+func addnumbers(first int, second int) int{
+	return first + second
+}
 func main(){
 	//fmt.Println("hello world!:)")
-	testfunc()
+	//testfunc()
+	fmt.Println(addnumbers(5,6))
 }
