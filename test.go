@@ -173,7 +173,43 @@ func main(){
 }
 */
 
+/*
 func main(){
 	defer fmt.Println("world?") // runs when function is finished execution...
 	fmt.Println("hello")
+}
+*/
+
+/*
+func sayBye(name string){
+	fmt.Println("starting bye")
+	defer fmt.Printf("Bye bye %v...\n", name)
+	fmt.Println("finishing bye")
+}
+
+func sayHello(name string){
+	fmt.Println("starting sayHello")
+	defer fmt.Printf("hello %v\n", name)
+	defer sayBye(name)
+	fmt.Println("finishing sayHello")
+}
+
+func main(){
+	fmt.Println("starting main")
+	sayHello("maysam")
+	fmt.Println("finishing main")
+	//executes as:
+	    starting main
+		starting sayHello
+		finishing sayHello
+		starting bye
+		finishing bye
+		Bye bye maysam...
+		hello maysam
+		finishing main
+}
+*/
+
+func main(){
+	fmt.Println("bye now!")
 }
